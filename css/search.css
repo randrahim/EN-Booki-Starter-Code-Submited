@@ -45,3 +45,26 @@
   border-radius: 0px 10px 10px 0px;
   box-shadow: 0 2px 4px rgba(7, 3, 3, 0.2);
 }
+
+@media (max-width: 768px) {
+  .search-bar button .fa-solid {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar button {
+    border-radius: 10px;
+    padding: 14px;
+  }
+
+  .search-bar button .button-text {
+    display: none;
+  }
+
+  .search-bar button .fa-magnifying-glass {
+    display: inline-block;
+    color: #f2f2f2;
+    font-size: 18px;
+  }
+}
