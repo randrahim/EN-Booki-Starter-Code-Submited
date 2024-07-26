@@ -1,0 +1,51 @@
+/* Filter Styles */
+.filter-section {
+  padding: 20px;
+  text-align: left;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-options {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.filter-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-option {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-option .icon {
+  margin-right: 10px;
+}
+
+.filter-icon {
+  color: #0074d9;
+}
+
+.filter-option.active {
+  border-bottom: 2px solid #0074d9;
+  color: white;
+  border: none;
+}
+
+.available-places {
+  font-size: 14px;
+}
