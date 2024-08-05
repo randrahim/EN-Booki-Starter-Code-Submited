@@ -46,3 +46,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
+
+@media (max-width: 768px) {
+  .place img {
+    height: 150px !important;
+    object-fit: cover;
+  }
+  .place {
+    margin: 0px;
+  }
+}
