@@ -85,6 +85,7 @@ html {
 /****** Accommodation ***********/
 .accommodation {
   width: 65%;
+  flex: 1;
 }
 
 .grid-container {
@@ -158,20 +159,46 @@ html {
 @media (max-width: 768px) {
   .main-container {
     padding: 0px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  .accommodation {
+    order: 2; /* Ensures Accommodation section is first */
+    width: 100%;
+  }
+
+  .popular {
+    order: 1; /* Ensures Most Popular section is second */
+    width: 100%;
+  }
+  .accommodation-and-popular {
+    flex-direction: column;
+  }
+  .popular {
+    order: 1; /* Sidebar appears first */
+    width: 100%; /* Full width on mobile */
+  }
+
+  .accommodation {
+    order: 2; /* Accommodation appears second */
+    width: 100%; /* Full width on mobile */
+  }
+  .card img {
+    width: 100%;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .main-container {
     display: flex;
     flex-direction: column;
   }
 
   .accommodation {
-    order: 1; /* Ensures Accommodation section is first */
+    order: 1; 
   }
 
   .popular {
-    order: 2; /* Ensures Most Popular section is second */
+    order: 2; 
   }
-}
+} */
