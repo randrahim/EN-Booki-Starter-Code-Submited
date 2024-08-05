@@ -30,3 +30,16 @@
   color: #000;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .site-footer {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: flex-start;
+    padding: 25px;
+    margin: 0px;
+  }
+
+  .footer-column {
+    margin: 10px 0; /* Add margin between columns */
+  }
+}
