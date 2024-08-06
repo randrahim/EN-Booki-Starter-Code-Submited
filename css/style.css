@@ -162,18 +162,11 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .accommodation {
-    order: 2; /* Ensures Accommodation section is first */
-    width: 100%;
-  }
 
-  .popular {
-    order: 1; /* Ensures Most Popular section is second */
-    width: 100%;
-  }
   .accommodation-and-popular {
     flex-direction: column;
   }
+
   .popular {
     order: 1; /* Sidebar appears first */
     width: 100%; /* Full width on mobile */
@@ -183,22 +176,24 @@ html {
     order: 2; /* Accommodation appears second */
     width: 100%; /* Full width on mobile */
   }
+
   .card img {
     width: 100%;
   }
 }
 
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  .main-container {
-    display: flex;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .accommodation-and-popular {
     flex-direction: column;
   }
 
   .accommodation {
-    order: 1; 
+    order: 1;
+    /* width: 25%; */
   }
 
   .popular {
-    order: 2; 
+    order: 2;
+    /* width: 25%; */
   }
-} */
+}
