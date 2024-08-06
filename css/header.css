@@ -23,16 +23,15 @@
   border-top: 2px solid #0065fc;
 }
 
+/* Media query for mobile devices */
 @media (max-width: 768px) {
-  /* Media query for mobile devices */
   .main-header {
     flex-direction: column;
-
     padding: 10px;
+    margin-top: 20px;
   }
 
   .logo img {
-    /* width: 80px; */
     margin-bottom: 20px;
   }
 
@@ -40,15 +39,15 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* padding-top: 20px; */
-    /* text-align: center; */
     font-size: 100%;
+    /* border-top: 2px solid #f2f2f2;  */
   }
 
   .main-nav a {
+    flex: 1; /* To make the links take equal space */
+    text-align: center; /* Center the text */
     margin-right: 0;
     padding: 10px 0;
-
     border-bottom: 2px solid #f2f2f2;
   }
 
@@ -56,6 +55,6 @@
   .main-nav .active {
     color: #0065fc;
     border-bottom: 2px solid #0065fc;
-    border-top: 0px;
+    border-top: 0;
   }
 }
