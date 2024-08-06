@@ -21,6 +21,9 @@
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
 }
+.fa-location-dot {
+  color: black;
+}
 
 .search-bar input {
   width: 300px;
