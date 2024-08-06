@@ -46,7 +46,17 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  .places-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .place {
+    flex: 1 0 calc(10% - 10px); /* Two items per row with spacing */
+    /* margin: 5px; */
+  }
+}
 @media (max-width: 768px) {
   .place img {
     height: 150px !important;
