@@ -1,19 +1,14 @@
 /* Footer Styles */
 .footer-section {
-  background-color: #f2f2f2;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
+  background-color: #f2f2f2;
+  justify-content: space-between;
 }
 
 .footer-column {
   flex: 1;
-  margin-right: 20px;
-}
-
-.footer-column h3 {
-  color: #333;
 }
 
 .footer-column ul {
@@ -35,9 +30,6 @@
 @media (max-width: 768px) {
   .footer-section {
     flex-direction: column; /* Stack columns vertically */
-    align-items: flex-start;
-    padding: 25px;
-    margin: 0px;
   }
 
   .footer-column {
