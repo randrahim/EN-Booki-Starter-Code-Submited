@@ -156,7 +156,7 @@ html {
   margin-bottom: 5px;
 }
 
-/* Added Styles */
+/* Responsive Styles */
 @media (min-width: 768px) and (max-width: 1024px) {
   .accommodation-and-popular {
     flex-direction: column;
@@ -198,7 +198,7 @@ html {
 
 @media (max-width: 768px) {
   .main-container {
-    padding: 0px; /* Adjust padding as needed */
+    padding: 0px;
     display: flex;
     flex-direction: column;
   }
@@ -208,16 +208,12 @@ html {
   }
 
   .popular {
-    order: 1; /* Sidebar appears first */
-    width: 100%; /* Full width on mobile */
+    order: 1;
+    width: 100%;
   }
 
   .accommodation {
-    order: 2; /* Accommodation appears second */
-    width: 100%; /* Full width on mobile */
-  }
-
-  .card img {
+    order: 2;
     width: 100%;
   }
 }

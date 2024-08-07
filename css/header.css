@@ -23,7 +23,7 @@
   border-top: 2px solid #0065fc;
 }
 
-/* Media query for mobile devices */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .main-header {
     flex-direction: column;

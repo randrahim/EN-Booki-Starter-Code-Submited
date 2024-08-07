@@ -31,6 +31,7 @@
   text-decoration: none;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
   .site-footer {
     flex-direction: column; /* Stack columns vertically */

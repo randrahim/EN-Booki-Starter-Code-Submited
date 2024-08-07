@@ -46,6 +46,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
+
+/* Responsive Styles */
 @media (min-width: 768px) and (max-width: 1024px) {
   .things-to-do {
     padding-top: 0px;
@@ -64,9 +66,7 @@
 @media (max-width: 768px) {
   .place img {
     height: 150px !important;
+    width: 350px;
     object-fit: cover;
-  }
-  .place {
-    margin: 0px;
   }
 }
