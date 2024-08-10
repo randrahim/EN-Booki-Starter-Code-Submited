@@ -1,10 +1,10 @@
 /****** Search Styles ***********/
-.find-search {
+.search-section {
   /* padding: 20px; */
   text-align: left;
 }
 
-.find-search p {
+.search-section p {
   font-size: 16px;
   margin-bottom: 30px;
   line-height: 1.2rem;
@@ -48,14 +48,16 @@
   box-shadow: 0 2px 4px rgba(7, 3, 3, 0.2);
 }
 
-/* Responsive Styles */
-@media (min-width: 481px) {
-  .search-bar button .fa-magnifying-glass {
-    display: none;
-  }
+.search-bar button .fa-magnifying-glass {
+  display: none;
 }
 
+/* Responsive Styles */
+
 @media (max-width: 480px) {
+  .search-section {
+    padding: 0px 20px;
+  }
   .search-bar button {
     border-radius: 10px;
     padding: 14px;
