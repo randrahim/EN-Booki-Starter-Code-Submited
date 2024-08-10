@@ -1,6 +1,5 @@
 /* Filter Styles */
 .filter-section {
-  /* padding: 20px; */
   text-align: left;
 }
 
@@ -58,6 +57,10 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .filter-section {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
   .filter-label,
   .available-places {
     font-size: 16px;
