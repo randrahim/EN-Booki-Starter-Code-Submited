@@ -1,25 +1,30 @@
 /****** Header Styles ***********/
 .main-header {
   display: flex;
-  padding: 20px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.logo img {
+.main-header .logo img {
   height: 15px;
+  padding-top: 10px;
 }
 
+.main-nav {
+  padding: 17px 50px 0px;
+}
 .main-nav a {
   color: #333;
   font-weight: bold;
   margin-right: 20px;
   text-decoration: none;
+  
 }
 
 .main-nav a:hover {
   color: #0065fc;
-  padding-top: 10px;
+  padding-top: 16px;
   border-top: 2px solid #0065fc;
 }
 
@@ -27,32 +32,30 @@
 @media (max-width: 768px) {
   .main-header {
     flex-direction: column;
-    padding: 10px;
+    padding: 0px;
     margin-top: 20px;
   }
 
   .logo img {
-    margin-bottom: 20px;
+    padding-top: 0px;
   }
 
   .main-nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    font-size: 100%;
-    /* border-top: 2px solid #f2f2f2;  */
+    padding-top: 0px;
   }
 
   .main-nav a {
     flex: 1; /* To make the links take equal space */
     text-align: center; /* Center the text */
     margin-right: 0;
-    padding: 10px 0;
     border-bottom: 2px solid #f2f2f2;
+    padding: 16px 0px;
   }
 
-  .main-nav a:hover,
-  .main-nav .active {
+  .main-nav a:hover {
     color: #0065fc;
     border-bottom: 2px solid #0065fc;
     border-top: 0;
