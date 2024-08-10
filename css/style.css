@@ -205,15 +205,18 @@ html {
 
   .accommodation-and-popular {
     flex-direction: column;
-  }
 
+  }
+  
   .popular {
     order: 1;
     width: 100%;
+    border-radius: 0px !important;
   }
 
   .accommodation {
     order: 2;
     width: 100%;
+    background-color: #fff !important;
   }
 }
