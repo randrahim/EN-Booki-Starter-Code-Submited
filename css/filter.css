@@ -12,6 +12,7 @@
 .filter-options {
   display: flex;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .filter-label {
