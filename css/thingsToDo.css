@@ -1,7 +1,7 @@
 /* Things To Do Styles */
 .things-to-do {
   text-align: center;
-  margin-top: 50px;
+  margin: 0px auto;
 }
 
 .things-to-do h2 {
@@ -68,7 +68,7 @@
 }
 @media (max-width: 768px) {
   .things-to-do {
-    margin: 20px;
+    /* margin: 20px; */
   }
   .things-to-do h2 {
     padding-left: 20px;
