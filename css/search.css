@@ -52,7 +52,7 @@
   display: none;
 }
 
-/* Responsive Styles */
+/* Responsive Styles on Mobile*/
 @media (max-width: 768px) {
   .search-section {
     padding: 0px 20px;
