@@ -3,22 +3,19 @@
   text-align: left;
 }
 
+.filter-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .filter-container {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .filter-options {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
-.filter-label {
-  font-weight: bold;
-  margin-right: 10px;
-  padding-bottom: 10px;
 }
 
 .filter-option {
@@ -58,6 +55,11 @@
 
 .fa-circle-exclamation {
   margin-right: 5px;
+}
+
+/* Responsive Styles on Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
 
 /* Responsive Styles on Mobile */
