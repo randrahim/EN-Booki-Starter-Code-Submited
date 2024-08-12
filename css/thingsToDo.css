@@ -11,7 +11,7 @@
 
 .places-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -63,8 +63,9 @@
     padding: 20px;
   }
   .places-container {
-    flex-wrap: wrap;
-    row-gap: 20px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
   }
   .place img {
     height: 180px;
