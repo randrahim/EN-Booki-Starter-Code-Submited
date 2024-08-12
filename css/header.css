@@ -1,12 +1,12 @@
 /****** Header Styles ***********/
-.main-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.main-header .logo img {
+.header .logo img {
   height: 15px;
   padding-top: 10px;
 }
@@ -30,7 +30,7 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .main-header {
+  .header {
     flex-direction: column;
     padding: 0px;
     margin-top: 20px;
