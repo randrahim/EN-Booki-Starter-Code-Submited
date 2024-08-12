@@ -1,5 +1,5 @@
 /* Footer Styles */
-.footer-section {
+.footer {
   padding: 20px;
   display: flex;
   margin-top: 20px;
@@ -28,7 +28,7 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .footer-section {
+  .footer {
     flex-direction: column; /* Stack columns vertically */
     padding-top: 0px;
   }
