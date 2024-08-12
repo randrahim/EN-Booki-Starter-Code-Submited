@@ -19,7 +19,6 @@
   font-weight: bold;
   margin-right: 20px;
   text-decoration: none;
-  
 }
 
 .nav a:hover {
@@ -36,7 +35,7 @@
     margin-top: 20px;
   }
 
-  .logo img {
+  .header .logo img {
     padding-top: 0px;
   }
 
@@ -48,15 +47,14 @@
   }
 
   .nav a {
-    flex: 1; /* To make the links take equal space */
-    text-align: center; /* Center the text */
+    flex: 1;
     margin-right: 0;
-    border-bottom: 2px solid #f2f2f2;
+    text-align: center; 
     padding: 16px 0px;
+    border-bottom: 2px solid #f2f2f2;
   }
 
   .nav a:hover {
-    color: #0065fc;
     border-bottom: 2px solid #0065fc;
     border-top: 0;
   }
