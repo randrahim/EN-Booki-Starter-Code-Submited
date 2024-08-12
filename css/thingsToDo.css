@@ -13,11 +13,10 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* flex-direction: row;
-  column-gap: 20px; */
+  gap: 20px;
 }
 
-.place {
+.places-container .place {
   margin: 10px;
   text-align: center;
 }
