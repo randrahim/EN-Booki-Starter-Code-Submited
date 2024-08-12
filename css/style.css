@@ -107,7 +107,7 @@ html {
 
 .show-more-btn {
   border: none;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 24px;
   font-weight: bold;
 }
@@ -121,6 +121,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+}
+.popular-cards{
+  gap: 20px;
 }
 
 .popular-cards .card {
@@ -161,11 +165,15 @@ html {
 @media (min-width: 768px) and (max-width: 1024px) {
   .accommodation-and-popular {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .accommodation,
   .popular {
     width: 100%;
-    margin-bottom: 40px;
+  }
+
+  .accommodation {
+    margin-right: 0px;
   }
 
   .accommodation img {
@@ -185,6 +193,9 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .popular-cards{
+    padding-top: 20px;
   }
   .popular .card {
     flex: 1 1 calc(20% - 10px); /* Two items per row with spacing */
@@ -212,6 +223,7 @@ html {
   .accommodation {
     order: 2;
     width: 100%;
+    margin-right: 0px;
     margin-bottom: 0px;
     background-color: #fff !important;
   }
