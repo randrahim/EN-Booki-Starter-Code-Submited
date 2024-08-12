@@ -1,6 +1,7 @@
 /* Filter Styles */
 .filter-section {
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .filter-container {
@@ -11,8 +12,8 @@
 
 .filter-options {
   display: flex;
-  margin-bottom: 10px;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .filter-label {
@@ -22,15 +23,15 @@
 }
 
 .filter-option {
-  text-decoration: none;
   color: #000;
-  font-weight: bold;
-  margin: 0 10px;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
   display: flex;
+  margin: 0 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
   align-items: center;
+  text-decoration: none;
+  border: 1px solid #ccc;
   justify-content: space-between;
 }
 
@@ -47,9 +48,9 @@
 }
 
 .filter-option.active {
-  border-bottom: 2px solid #0074d9;
-  color: white;
   border: none;
+  color: white;
+  border-bottom: 2px solid #0074d9;
 }
 
 .available-places {
@@ -60,11 +61,9 @@
 @media (max-width: 768px) {
   .filter-section {
     padding: 0px 10px;
-    margin-bottom: 20px;
   }
   .filter-label,
   .available-places {
-    font-size: 16px;
     padding-left: 10px;
   }
 
@@ -76,13 +75,12 @@
   .filter-options {
     display: flex;
     flex-wrap: wrap;
-    /* width: 100%; */
   }
 
   .filter-option {
-    flex: 1 1 calc(25% - 10px);
     margin: 5px;
-    justify-content: left;
     text-align: center;
+    justify-content: left;
+    flex: 1 1 calc(25% - 10px);
   }
 }
