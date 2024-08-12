@@ -5,8 +5,9 @@
 }
 
 .things-to-do h2 {
-  margin-bottom: 20px;
   text-align: left;
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .places-container {
@@ -14,6 +15,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  align-items: center;
 }
 
 .places-container .place {
@@ -47,7 +49,6 @@
 
 /* Responsive Styles on Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-
   .place {
     flex: 1 1 calc(20% - 10px);
   }
@@ -59,9 +60,6 @@
 
 /* Responsive Styles on Mobile */
 @media (max-width: 768px) {
-  .things-to-do {
-    padding: 20px;
-  }
   .places-container {
     gap: 20px;
     align-items: center;

@@ -80,14 +80,21 @@ html {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+}
+
+.header, 
+section.search-section, 
+section.filter-section,  
+section.things-to-do,
+main {
+  margin-bottom: 30px;
 }
 
 /* Responsive Styles on Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .accommodation-and-popular {
     flex-direction: column;
-    margin-bottom: 40px;
+    gap: 20px;
   }
 }
 
