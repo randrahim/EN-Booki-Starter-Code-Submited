@@ -83,35 +83,6 @@ html {
   margin-bottom: 20px;
 }
 
-/****** Accommodation ***********/
-.accommodation {
-  width: 65%;
-  flex: 1;
-  margin-right: 40px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 30px;
-  margin-top: 33px;
-}
-
-.hotel-card-text {
-  padding: 0px 10px 20px;
-}
-
-.popular-hotels {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.show-more-btn {
-  border: none;
-  font-size: 18px;
-  margin-top: 24px;
-  font-weight: bold;
-}
-
 /****** Popular ***********/
 .popular {
   width: 32%;
@@ -167,11 +138,10 @@ html {
     flex-direction: column;
     margin-bottom: 40px;
   }
-  .accommodation,
   .popular {
     width: 100%;
   }
-
+/* 
   .accommodation {
     margin-right: 0px;
   }
@@ -187,7 +157,7 @@ html {
   .hotel-card-text p,
   .hotel-card-text .card-rating {
     margin: 5px 0px;
-  }
+  } */
 
   .popular .popular-cards {
     display: flex;
@@ -220,11 +190,11 @@ html {
     border-radius: 0px !important;
   }
 
-  .accommodation {
+  /* .accommodation {
     order: 2;
     width: 100%;
     margin-right: 0px;
     margin-bottom: 0px;
     background-color: #fff !important;
-  }
+  } */
 }
