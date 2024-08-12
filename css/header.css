@@ -11,10 +11,10 @@
   padding-top: 10px;
 }
 
-.main-nav {
+.nav {
   padding:  17px 0px 0px 50px;
 }
-.main-nav a {
+.nav a {
   color: #333;
   font-weight: bold;
   margin-right: 20px;
@@ -22,7 +22,7 @@
   
 }
 
-.main-nav a:hover {
+.nav a:hover {
   color: #0065fc;
   padding-top: 16px;
   border-top: 2px solid #0065fc;
@@ -40,14 +40,14 @@
     padding-top: 0px;
   }
 
-  .main-nav {
+  .nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 0px;
   }
 
-  .main-nav a {
+  .nav a {
     flex: 1; /* To make the links take equal space */
     text-align: center; /* Center the text */
     margin-right: 0;
@@ -55,7 +55,7 @@
     padding: 16px 0px;
   }
 
-  .main-nav a:hover {
+  .nav a:hover {
     color: #0065fc;
     border-bottom: 2px solid #0065fc;
     border-top: 0;
