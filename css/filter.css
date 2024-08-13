@@ -50,11 +50,9 @@
 /* Responsive Styles on Mobile */
 @media (max-width: 768px) {
   .filter-section {
-    padding: 0px 10px;
-  }
-  .filter-label,
-  .available-places {
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px !important;
   }
 
   .filter-container {
@@ -62,14 +60,7 @@
     align-items: flex-start;
   }
 
-  .filter-options {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .filter-option {
-    margin: 5px;
-    text-align: center;
     justify-content: left;
     flex: 1 1 calc(25% - 10px);
   }
