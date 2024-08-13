@@ -47,11 +47,6 @@
   margin-right: 5px;
 }
 
-/* Responsive Styles on Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-
-}
-
 /* Responsive Styles on Mobile */
 @media (max-width: 768px) {
   .filter-section {
