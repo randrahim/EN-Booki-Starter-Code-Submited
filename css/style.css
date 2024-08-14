@@ -31,6 +31,8 @@ html {
   width: 100%;
   padding: 0 50px;
   box-sizing: border-box;
+  max-width: 1440px;
+  min-width: 320px;
 }
 
 .section-title {
@@ -82,14 +84,17 @@ html {
   box-sizing: border-box;
 }
 
-.header, 
-section.search-section, 
-section.filter-section,  
+.header,
+section.search-section,
+section.filter-section,
 section.things-to-do,
 main {
   margin-bottom: 30px;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+}
 /* Responsive Styles on Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .accommodation-and-popular {
