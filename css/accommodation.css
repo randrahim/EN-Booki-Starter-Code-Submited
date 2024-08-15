@@ -7,8 +7,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr); /* Default for desktop */
+  gap: 20px;
   margin-top: 33px;
 }
 
@@ -33,7 +33,9 @@
     width: 100%;
     margin-right: 0px;
   }
-
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row on tablet */
+  }
   .accommodation img {
     width: 100%;
     height: 100px;
@@ -56,5 +58,8 @@
     margin-right: 0px;
     margin-bottom: 0px;
     background-color: #fff !important;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); /* 1 cards per row on mobile */
   }
 }
