@@ -67,8 +67,8 @@
     flex-direction: column;
   }
   .place img {
-    height: 140px;
-    width: 315px;
+    height: 180px;
+    width: 330px;
     object-fit: cover;
   }
 }
