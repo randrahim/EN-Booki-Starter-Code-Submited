@@ -31,8 +31,9 @@
   justify-content: space-between;
 }
 
-.filter-option:hover {
+.filter-options a:hover {
   background-color: #deebff;
+  cursor: default;
 }
 
 .filter-option .icon {
