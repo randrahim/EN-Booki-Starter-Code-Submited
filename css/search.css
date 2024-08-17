@@ -9,24 +9,13 @@
   line-height: 1.2rem;
 }
 
-.search-bar {
+form {
+  height: 50px;
   display: flex;
   justify-content: left;
 }
 
-.location-icon {
-  padding: 15px 16px;
-  font-size: 15px;
-  background-color: #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
-}
-.fa-location-dot {
-  color: black;
-}
-form {
-  height: 50px;
-}
-.search-bar input {
+input {
   padding: 15px 16px;
   font-size: 14px;
   outline: none;
@@ -38,7 +27,7 @@ form {
   background-color: transparent;
 }
 
-.search-bar button {
+button {
   border: none;
   color: #fff;
   font-size: 14px;
@@ -50,8 +39,19 @@ form {
   box-shadow: 0 2px 4px rgba(7, 3, 3, 0.2);
 }
 
-.search-bar button .fa-magnifying-glass {
+button .fa-magnifying-glass {
   display: none;
+}
+
+.location-icon {
+  padding: 15px 16px;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.fa-location-dot {
+  color: black;
 }
 
 /* Responsive Styles on Mobile*/
@@ -59,21 +59,17 @@ form {
   .search-section {
     padding: 0px 20px;
   }
-  .search-bar button {
-    border-radius: 10px;
-    padding: 14px;
-  }
 
-  .search-bar button .button-text {
+  button .button-text {
     display: none;
   }
 
-  .search-bar button .fa-magnifying-glass {
+  button .fa-magnifying-glass {
     display: inline-block;
     color: #f2f2f2;
     font-size: 18px;
   }
-  form,
+
   input {
     width: 100%;
   }
