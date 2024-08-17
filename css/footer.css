@@ -23,6 +23,7 @@
 .footer-column ul li a {
   color: #000;
   text-decoration: none;
+  cursor: default;
 }
 
 /* Responsive Styles on Mobile */
