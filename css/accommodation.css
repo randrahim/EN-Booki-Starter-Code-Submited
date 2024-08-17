@@ -25,6 +25,13 @@
   font-size: 18px;
   margin-top: 24px;
   font-weight: bold;
+  background-color: initial;
+  color: black;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.card a {
+  cursor: default;
 }
 
 /* Responsive Styles on Tablet */
