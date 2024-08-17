@@ -36,7 +36,6 @@ button {
   padding: 10px 16px;
   background-color: #0074d9;
   border-radius: 0px 15px 15px 0px;
-  box-shadow: 0 2px 4px rgba(7, 3, 3, 0.2);
 }
 
 button .fa-magnifying-glass {
@@ -59,7 +58,9 @@ button .fa-magnifying-glass {
   .search-section {
     padding: 0px 20px;
   }
-
+  button {
+    box-shadow: 0 2px 4px rgba(7, 3, 3, 0.2);
+  }
   button .button-text {
     display: none;
   }
