@@ -16,10 +16,6 @@
   padding: 0px 10px 20px;
 }
 
-.popular-hotels {
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .show-more-btn {
   border: none;
   font-size: 18px;
